@@ -1,0 +1,100 @@
+/* line 1, /var/www/html/angular/todo_list/styles/sass/main.scss */
+body {
+  color: #2d3339;
+  font-family: "Varela Round";
+  text-align: center;
+  background: #edeff0;
+  font-size: 16px; }
+
+/* line 8, /var/www/html/angular/todo_list/styles/sass/main.scss */
+a {
+  color: #3f8abf;
+  text-decoration: none; }
+
+/* line 11, /var/www/html/angular/todo_list/styles/sass/main.scss */
+a:hover {
+  color: #65a1cc; }
+
+/* line 14, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list {
+  background: #fff;
+  width: 80%;
+  min-width: 500px;
+  margin: 80px auto 0;
+  border-top: 40px solid #5a6772;
+  text-align: left; }
+
+/* line 21, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item {
+  border-bottom: 2px solid #edeff0;
+  padding: 17px 0 18px 17px; }
+
+/* line 24, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item label {
+  padding-left: 5px;
+  cursor: pointer; }
+
+/* line 27, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item .editing-label {
+  margin-left: 5px;
+  font-family: "Varela Round";
+  border-radius: 2px;
+  border: 2px solid #a7b9c4;
+  font-size: 16px;
+  padding: 15px 0 15px 10px;
+  width: 60%; }
+
+/* line 35, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item .actions {
+  float: right;
+  margin-right: 20px; }
+
+/* line 38, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item .actions .delete {
+  color: #ed5a5a;
+  margin-left: 10px; }
+
+/* line 41, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item .actions .delete:hover {
+  color: #f28888; }
+
+/* line 43, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .item.editing-item .actions {
+  margin-top: 11px; }
+
+/* line 45, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .edited label:after {
+  content: " edited";
+  text-transform: uppercase;
+  color: #a7b9c4;
+  font-size: 14px;
+  padding-left: 5px; }
+
+/* line 51, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .completed label {
+  color: #a7b9c4;
+  text-decoration: line-through; }
+
+/* line 54, /var/www/html/angular/todo_list/styles/sass/main.scss */
+.list .add {
+  padding: 25px 0 27px 25px; }
+
+/* line 57, /var/www/html/angular/todo_list/styles/sass/main.scss */
+input[type="checkbox"] {
+  display: none; }
+
+/* line 60, /var/www/html/angular/todo_list/styles/sass/main.scss */
+input[type="checkbox"] + span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(checkbox-empty.svg) left top no-repeat;
+  cursor: pointer; }
+
+/* line 69, /var/www/html/angular/todo_list/styles/sass/main.scss */
+input[type="checkbox"]:checked + span {
+  background: url(checkbox-filled.svg) left top no-repeat; }
+
+/*# sourceMappingURL=../main.map */
